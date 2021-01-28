@@ -4,7 +4,7 @@
   "description": "Sketchy CSS library for prototyping.",
   "main": "style.min.css",
   "scripts": {
-    "build": "postcss style.css > style.min.css --use autoprefixer",
+    "build": "postcss style.css > style.min.css",
     "lint": "stylelint *.css",
     "start": "browser-sync start --config bs-config.js",
     "test": "npm run lint"
