@@ -2,8 +2,9 @@
   "name": "@accessibility-in-action/looseleaf",
   "version": "1.0.0",
   "description": "Sketchy CSS library for prototyping.",
-  "main": "index.js",
+  "main": "style.min.css",
   "scripts": {
+    "build": "postcss style.css > style.min.css --use autoprefixer",
     "lint": "stylelint *.css",
     "start": "browser-sync start --config bs-config.js",
     "test": "npm run lint"
@@ -24,7 +25,11 @@
   },
   "homepage": "https://github.com/accessibility-in-action/looseleaf#readme",
   "devDependencies": {
+    "autoprefixer": "10.2.3",
     "browser-sync": "2.26.14",
+    "cssnano": "4.1.10",
+    "postcss": "8.2.4",
+    "postcss-cli": "8.3.1",
     "stylelint-config-fluid": "0.1.0"
   }
 }
