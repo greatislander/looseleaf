@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-alpha.3](https://github.com/accessibility-in-action/looseleaf/compare/1.0.0-alpha.2...1.0.0-alpha.3) (2021-01-28)
+
+
+### Bug Fixes
+
+* add build step to release ([4721955](https://github.com/accessibility-in-action/looseleaf/commit/472195506202d0fe8a845ac2360a0af9b4c72b0a))
+
 ## [1.0.0-alpha.2](https://github.com/accessibility-in-action/looseleaf/compare/1.0.0-alpha.1...1.0.0-alpha.2) (2021-01-28)
 
 
