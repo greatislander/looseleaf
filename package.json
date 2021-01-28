@@ -1,0 +1,30 @@
+{
+  "name": "@accessibility-in-action/looseleaf",
+  "version": "1.0.0",
+  "description": "Sketchy CSS library for prototyping.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint *.css",
+    "start": "browser-sync start --config bs-config.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/accessibility-in-action/looseleaf.git"
+  },
+  "keywords": [
+    "css",
+    "prototype",
+    "sketchy"
+  ],
+  "author": "OCAD University",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/accessibility-in-action/looseleaf/issues"
+  },
+  "homepage": "https://github.com/accessibility-in-action/looseleaf#readme",
+  "devDependencies": {
+    "browser-sync": "2.26.14",
+    "stylelint-config-fluid": "0.1.0"
+  }
+}
