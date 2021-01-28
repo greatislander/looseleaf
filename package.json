@@ -6,7 +6,8 @@
   "scripts": {
     "build": "postcss style.css > style.min.css",
     "lint": "stylelint style.css",
-    "release": "standard-version -t ''",
+    "prerelease": "npm run build",
+    "release": "git add style.min.css && standard-version -a -t ''",
     "start": "browser-sync start --config bs-config.js",
     "test": "npm run lint"
   },
