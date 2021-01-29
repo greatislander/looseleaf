@@ -1,4 +1,5 @@
 :root {
+    --ll-font-family: "Comic Neue", cursive;
     --ll-border-radius: 16rem 1rem 14rem 1rem / 1rem 14rem 1rem 16rem;
     --ll-border-color: black;
     --ll-text-color: black;
@@ -120,7 +121,7 @@
 body {
     background-color: var(--ll-background-color);
     color: var(--ll-text-color);
-    font-family: "Comic Neue", cursive;
+    font-family: var(--ll-font-family);
     font-size: var(--step-0);
 }
 
@@ -249,6 +250,7 @@ button {
     border: var(--ll-border-medium);
     border-radius: var(--ll-border-radius);
     color: var(--ll-background-color);
+    font-family: inherit;
     font-size: 100%;
     font-weight: 700;
     line-height: inherit;
