@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-alpha.4](https://github.com/accessibility-in-action/looseleaf/compare/1.0.0-alpha.3...1.0.0-alpha.4) (2021-01-29)
+
+
+### Features
+
+* inherit font for buttons, add font variable ([f6b2e41](https://github.com/accessibility-in-action/looseleaf/commit/f6b2e414d7843346580b912ad02b814191dd3d0e))
+
 ## [1.0.0-alpha.3](https://github.com/accessibility-in-action/looseleaf/compare/1.0.0-alpha.2...1.0.0-alpha.3) (2021-01-28)
 
 
