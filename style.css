@@ -1,5 +1,5 @@
 :root {
-    --ll-font-family: "Comic Neue", cursive;
+    --ll-font-family: "Comic Neue", -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     --ll-border-radius: 16rem 1rem 14rem 1rem / 1rem 14rem 1rem 16rem;
     --ll-border-color: black;
     --ll-text-color: black;
