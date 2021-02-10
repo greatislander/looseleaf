@@ -169,6 +169,11 @@ a:focus {
     outline: none;
 }
 
+::selection {
+    background-color: var(--ll-accent-color);
+    color: var(--ll-background-color);
+}
+
 form > * + * {
     margin-top: var(--step-2);
 }
@@ -198,7 +203,7 @@ input {
 }
 
 textarea {
-    height: calc(12 * var(--step-0));
+    min-height: calc(12 * var(--step-0));
     padding: var(--step--2);
     resize: vertical;
 }
