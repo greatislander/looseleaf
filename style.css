@@ -103,21 +103,6 @@
         );
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --ll-accent-color: hsl(405, 73%, 57%);
-        --ll-border-color: white;
-        --ll-text-color: white;
-        --ll-background-color: black;
-    }
-}
-
-@media screen and (min-width: 1140px) {
-    :root {
-        --fluid-screen: calc(var(--fluid-max-width) * 1px);
-    }
-}
-
 body {
     background-color: var(--ll-background-color);
     color: var(--ll-text-color);
@@ -256,7 +241,29 @@ input[type="checkbox"]:focus + label::before {
 }
 
 input[type="checkbox"]:checked + label::before {
-    content: "✓";
+    content: "\2713";
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--ll-text-color);
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
+    background-position: center right var(--step--4);
+    background-repeat: no-repeat;
+    border: var(--ll-border-medium);
+    border-radius: var(--ll-border-radius);
+    color: var(--ll-background-color);
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: inherit;
+    padding: var(--step--5) var(--step-3) var(--step--5) var(--step--4);
+}
+
+select:focus {
+    box-shadow: var(--ll-input-focus-box-shadow);
+    outline: none;
 }
 
 button {
@@ -285,4 +292,23 @@ button:focus {
     position: absolute;
     white-space: nowrap;
     width: 1px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --ll-accent-color: hsl(405, 73%, 57%);
+        --ll-border-color: white;
+        --ll-text-color: white;
+        --ll-background-color: black;
+    }
+
+    select {
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    :root {
+        --fluid-screen: calc(var(--fluid-max-width) * 1px);
+    }
 }
