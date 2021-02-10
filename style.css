@@ -103,14 +103,14 @@
         );
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
         --ll-accent-color: hsl(405, 73%, 57%);
         --ll-border-color: white;
         --ll-text-color: white;
         --ll-background-color: black;
     }
-} */
+}
 
 @media screen and (min-width: 1140px) {
     :root {
@@ -208,6 +208,20 @@ textarea {
     width: 100%;
 }
 
+input {
+    padding: var(--step--5) var(--step--4);
+}
+
+textarea {
+    height: calc(12 * var(--step-0));
+    padding: var(--step--2);
+    resize: vertical;
+}
+
+::-webkit-resizer {
+    display: none;
+}
+
 input:focus,
 textarea:focus {
     box-shadow: var(--ll-input-focus-box-shadow);
@@ -242,7 +256,7 @@ input[type="checkbox"]:focus + label::before {
 }
 
 input[type="checkbox"]:checked + label::before {
-    content: "X";
+    content: "✓";
 }
 
 button {
