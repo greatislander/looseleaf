@@ -1,6 +1,11 @@
 .github
+.commitlintrc.json
 .gitignore
+.npmignore
+.nvmrc
 .stylelintrc.json
-bs-config.js
-index.html
+build
+fractal.config.js
 postcss.config.js
+src/components
+src/docs

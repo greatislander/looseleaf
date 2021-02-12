@@ -2,13 +2,17 @@
   "name": "@accessibility-in-action/looseleaf",
   "version": "1.0.0-alpha.5",
   "description": "Sketchy CSS library for prototyping.",
-  "main": "style.min.css",
+  "main": "dist/style.min.css",
   "scripts": {
-    "build": "postcss style.css > style.min.css",
-    "lint": "stylelint style.css",
-    "prerelease": "npm run build",
-    "release": "git add style.min.css && standard-version -a -t ''",
-    "start": "browser-sync start --config bs-config.js",
+    "build": "run-s build:*",
+    "build:css": "postcss src/css/style.css -o dist/style.min.css",
+    "build:fractal": "fractal build",
+    "lint": "stylelint src/css/style.css",
+    "prerelease": "npm run build:css",
+    "release": "git add dist/style.min.css && standard-version -a -t ''",
+    "start": "run-p start:*",
+    "start:css": "postcss src/css/style.css -o dist/style.min.css --watch",
+    "start:fractal": "fractal start --watch",
     "test": "npm run lint"
   },
   "repository": {
@@ -40,15 +44,18 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@frctl/fractal": "^1.5.3",
+    "@frctl/nunjucks": "^2.0.7",
     "autoprefixer": "10.2.3",
-    "browser-sync": "2.26.14",
     "cssnano": "4.1.10",
     "husky": "4.3.8",
     "lint-staged": "10.5.3",
+    "npm-run-all": "^4.1.5",
     "postcss": "8.2.4",
     "postcss-cli": "8.3.1",
     "standard-version": "9.1.0",
     "stylelint-config-fluid": "0.1.0",
     "stylelint-use-logical": "^1.1.0"
-  }
+  },
+  "dependencies": {}
 }

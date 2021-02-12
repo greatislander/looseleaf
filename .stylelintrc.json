@@ -3,7 +3,7 @@
     "plugins": [
         "stylelint-use-logical"
     ],
-    "ignoreFiles": ["*.min.css"],
+    "ignoreFiles": ["dist/style.min.css"],
     "rules": {
         "csstools/use-logical": "always"
     }

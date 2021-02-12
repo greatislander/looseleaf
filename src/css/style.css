@@ -146,7 +146,7 @@ hr {
 }
 
 hr::after {
-    content: "*****";
+    content: "***";
     margin-block-start: var(--step--4);
     position: absolute;
     text-align: center;
@@ -162,11 +162,17 @@ a:visited {
 }
 
 a:focus {
+    background-color: var(--ll-background-color);
+    border-radius: var(--ll-border-radius);
+    box-shadow: var(--ll-link-focus-box-shadow);
+    outline: none;
+}
+
+a:active {
     background-color: var(--ll-accent-color);
     border-radius: var(--ll-border-radius);
     box-shadow: var(--ll-link-focus-box-shadow);
     color: var(--ll-background-color);
-    outline: none;
 }
 
 ::selection {
@@ -245,6 +251,10 @@ input[type="checkbox"]:focus + label::before {
     box-shadow: var(--ll-input-focus-box-shadow);
 }
 
+input[type="checkbox"]:active + label::before {
+    box-shadow: var(--ll-input-focus-box-shadow);
+}
+
 input[type="checkbox"]:checked + label::before {
     content: "\2713";
 }
@@ -291,6 +301,11 @@ button {
 button:focus {
     box-shadow: var(--ll-input-focus-box-shadow);
     outline: none;
+}
+
+button:active {
+    background: var(--ll-background-color);
+    color: var(--ll-text-color);
 }
 
 .visually-hidden {
