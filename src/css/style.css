@@ -120,6 +120,18 @@ body {
     margin-block-start: 1em;
 }
 
+.align-center {
+    text-align: center;
+}
+
+.align-start {
+    text-align: start;
+}
+
+.align-end {
+    text-align: end;
+}
+
 h1,
 .h1 {
     font-size: var(--step-3);
