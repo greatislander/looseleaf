@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-alpha.6](https://github.com/accessibility-in-action/looseleaf/compare/1.0.0-alpha.5...1.0.0-alpha.6) (2021-02-12)
+
+
+### Features
+
+* change flow margin to relative units ([251a22a](https://github.com/accessibility-in-action/looseleaf/commit/251a22a28306e86eadc33f80c901b313b9a02fee))
+* configure Fractal, add active states for links and buttons ([422623e](https://github.com/accessibility-in-action/looseleaf/commit/422623eb5956f1edfaa405a60ba10ede77d755ed))
+* use logical properties ([6b538bb](https://github.com/accessibility-in-action/looseleaf/commit/6b538bb72ea80fa4fc7e0be46a74f10615fc9e00))
+
 ## [1.0.0-alpha.5](https://github.com/accessibility-in-action/looseleaf/compare/1.0.0-alpha.4...1.0.0-alpha.5) (2021-02-10)
 
 
