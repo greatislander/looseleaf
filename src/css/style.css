@@ -157,6 +157,10 @@ a {
     color: var(--ll-text-color);
 }
 
+a[aria-current="page"] {
+    text-decoration-style: double;
+}
+
 a:visited {
     color: var(--ll-text-color);
 }
