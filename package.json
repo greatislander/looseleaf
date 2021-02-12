@@ -34,8 +34,8 @@
   "homepage": "https://github.com/accessibility-in-action/looseleaf#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
@@ -47,21 +47,21 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@frctl/fractal": "^1.5.3",
-    "@frctl/nunjucks": "^2.0.7",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@frctl/fractal": "1.5.3",
+    "@frctl/nunjucks": "2.0.7",
     "autoprefixer": "10.2.4",
     "cssnano": "4.1.10",
-    "eslint": "^7.19.0",
-    "eslint-config-fluid": "^2.0.0",
+    "eslint": "7.19.0",
+    "eslint-config-fluid": "2.0.0",
     "husky": "5.0.9",
     "lint-staged": "10.5.4",
-    "npm-run-all": "^4.1.5",
+    "npm-run-all": "4.1.5",
     "postcss": "8.2.6",
     "postcss-cli": "8.3.1",
     "standard-version": "9.1.0",
     "stylelint-config-fluid": "0.1.0",
-    "stylelint-use-logical": "^1.1.0"
+    "stylelint-use-logical": "1.1.0"
   }
 }
