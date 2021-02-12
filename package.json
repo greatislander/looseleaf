@@ -7,7 +7,9 @@
     "build": "run-s build:*",
     "build:css": "postcss src/css/style.css -o dist/style.min.css",
     "build:fractal": "fractal build",
-    "lint": "stylelint src/css/style.css",
+    "lint": "run-s lint:*",
+    "lint:js": "eslint *.js",
+    "lint:css": "stylelint src/css/style.css",
     "prerelease": "npm run build:css",
     "release": "git add dist/style.min.css && standard-version -a -t ''",
     "start": "run-p start:*",
@@ -39,6 +41,9 @@
   "lint-staged": {
     "*.css,!*.min.css": [
       "stylelint"
+    ],
+    "*.js": [
+      "eslint"
     ]
   },
   "devDependencies": {
@@ -48,6 +53,8 @@
     "@frctl/nunjucks": "^2.0.7",
     "autoprefixer": "10.2.3",
     "cssnano": "4.1.10",
+    "eslint": "^7.19.0",
+    "eslint-config-fluid": "^2.0.0",
     "husky": "4.3.8",
     "lint-staged": "10.5.3",
     "npm-run-all": "^4.1.5",
@@ -56,6 +63,5 @@
     "standard-version": "9.1.0",
     "stylelint-config-fluid": "0.1.0",
     "stylelint-use-logical": "^1.1.0"
-  },
-  "dependencies": {}
+  }
 }
