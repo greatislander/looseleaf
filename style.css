@@ -117,7 +117,7 @@ body {
 }
 
 .flow > * + * {
-    margin-top: var(--step--1);
+    margin-block-start: var(--step--1);
 }
 
 h1,
@@ -147,7 +147,7 @@ hr {
 
 hr::after {
     content: "*****";
-    margin-top: var(--step--4);
+    margin-block-start: var(--step--4);
     position: absolute;
     text-align: center;
     width: 100%;
@@ -175,11 +175,11 @@ a:focus {
 }
 
 form > * + * {
-    margin-top: var(--step-2);
+    margin-block-start: var(--step-2);
 }
 
 .field > * + * {
-    margin-top: var(--step--4);
+    margin-block-start: var(--step--4);
 }
 
 label {
@@ -236,8 +236,8 @@ input[type="checkbox"] + label::before {
     display: inline-flex;
     height: var(--step-1);
     justify-content: center;
-    margin-bottom: calc(-1 * var(--step--5));
-    margin-right: var(--step--5);
+    margin-block-end: calc(-1 * var(--step--5));
+    margin-inline-end: var(--step--5);
     width: var(--step-1);
 }
 
@@ -264,6 +264,10 @@ select {
     font-weight: 700;
     line-height: inherit;
     padding: var(--step--5) var(--step-3) var(--step--5) var(--step--4);
+}
+
+[dir="rtl"] select {
+    background-position: center left var(--step--4);
 }
 
 select:focus {
