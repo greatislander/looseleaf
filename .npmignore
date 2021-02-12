@@ -1,6 +1,7 @@
 .github
 .commitlintrc.json
 .gitignore
+.husky
 .npmignore
 .nvmrc
 .stylelintrc.json
