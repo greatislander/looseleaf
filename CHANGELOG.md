@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/accessibility-in-action/looseleaf/compare/1.0.0-alpha.6...1.0.0) (2021-02-12)
+
+
+### Features
+
+* add alignment utilities ([aac2004](https://github.com/accessibility-in-action/looseleaf/commit/aac20040cee0727b531740215dad52f022da1b0a))
+* add current page link style ([38201ec](https://github.com/accessibility-in-action/looseleaf/commit/38201ec6d6eff11b05c7005e161744aff559dd48))
+
+
+### Bug Fixes
+
+* adjust select arrow position ([86f9237](https://github.com/accessibility-in-action/looseleaf/commit/86f9237488eda77c0dacd9077546d511c14c79ba))
+
 ## [1.0.0-alpha.6](https://github.com/accessibility-in-action/looseleaf/compare/1.0.0-alpha.5...1.0.0-alpha.6) (2021-02-12)
 
 
