@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/accessibility-in-action/looseleaf/compare/1.0.0...1.0.1) (2021-03-02)
+
+
+### Bug Fixes
+
+* improve the ability to override dark theme ([b77d10d](https://github.com/accessibility-in-action/looseleaf/commit/b77d10d166e2d7039e542ecf83c77f3816ca1bce))
+
 ## [1.0.0](https://github.com/accessibility-in-action/looseleaf/compare/1.0.0-alpha.6...1.0.0) (2021-02-12)
 
 
