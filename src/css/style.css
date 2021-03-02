@@ -335,7 +335,7 @@ button:active {
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
+    body {
         --ll-accent-color: hsl(405, 73%, 57%);
         --ll-border-color: white;
         --ll-text-color: white;
