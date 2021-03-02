@@ -1,10 +1,10 @@
 :root {
     --ll-font-family: "Comic Neue", -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     --ll-border-radius: 16rem 1rem 14rem 1rem / 1rem 14rem 1rem 16rem;
-    --ll-border-color: black;
-    --ll-text-color: black;
-    --ll-accent-color: hsl(225, 73%, 57%);
-    --ll-background-color: white;
+    --ll-border-color: var(--ll-theme-border-color, #000);
+    --ll-text-color: var(--ll-theme-text-color, #000);
+    --ll-accent-color: var(--ll-theme-accent-color, hsl(225, 73%, 57%));
+    --ll-background-color: var(--ll-theme-background-color, #fff);
     --ll-input-focus-box-shadow: 0 0 0 0.125rem var(--ll-background-color), 0 0 0 0.25rem var(--ll-accent-color);
     --ll-link-focus-box-shadow: 0 0 0 0.25rem var(--ll-accent-color);
     --ll-border-thin: 0.0625rem solid var(--ll-border-color);
@@ -279,7 +279,7 @@ select {
     -webkit-appearance: none;
     appearance: none;
     background-color: var(--ll-text-color);
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
+    background-image: var(--ll-theme-select-icon, url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>'));
     background-position: right var(--step--4) center;
     background-repeat: no-repeat;
     border: var(--ll-border-medium);
@@ -332,19 +332,6 @@ button:active {
     position: absolute;
     white-space: nowrap;
     width: 1px;
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        --ll-accent-color: hsl(405, 73%, 57%);
-        --ll-border-color: white;
-        --ll-text-color: white;
-        --ll-background-color: black;
-    }
-
-    select {
-        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
-    }
 }
 
 @media screen and (min-width: 1140px) {
