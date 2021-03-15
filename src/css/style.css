@@ -3,6 +3,7 @@
     --ll-border-radius: 16rem 1rem 14rem 1rem / 1rem 14rem 1rem 16rem;
     --ll-border-color: var(--ll-theme-border-color, #000);
     --ll-text-color: var(--ll-theme-text-color, #000);
+    --ll-link-color: var(--ll-text-color, #000);
     --ll-accent-color: var(--ll-theme-accent-color, hsl(225, 73%, 57%));
     --ll-background-color: var(--ll-theme-background-color, #fff);
     --ll-input-focus-box-shadow: 0 0 0 0.125rem var(--ll-background-color), 0 0 0 0.25rem var(--ll-accent-color);
@@ -103,6 +104,16 @@
         );
 }
 
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 body {
     background-color: var(--ll-background-color);
     color: var(--ll-text-color);
@@ -166,7 +177,7 @@ hr::after {
 }
 
 a {
-    color: var(--ll-text-color);
+    color: var(--ll-link-color);
 }
 
 a[aria-current="page"] {
@@ -324,14 +335,29 @@ button:active {
     color: var(--ll-text-color);
 }
 
-.visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
+a.button {
+    appearance: none;
+    background: var(--ll-background-color);
+    border: var(--ll-border-medium);
+    border-radius: var(--ll-border-radius);
+    color: var(--ll-text-color);
+    display: inline-block;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: inherit;
+    padding: var(--step--5) var(--step--4);
+    text-decoration: none;
+}
+
+a.button:focus {
+    box-shadow: var(--ll-input-focus-box-shadow);
+    outline: none;
+}
+
+a.button:active {
+    background: var(--ll-text-color);
+    color: var(--ll-background-color);
 }
 
 @media screen and (min-width: 1140px) {
