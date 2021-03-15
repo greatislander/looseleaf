@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/accessibility-in-action/looseleaf/compare/1.1.0...1.2.0) (2021-03-15)
+
+
+### Features
+
+* add fieldset component (resolve [#10](https://github.com/accessibility-in-action/looseleaf/issues/10)) ([b94b5c5](https://github.com/accessibility-in-action/looseleaf/commit/b94b5c58dc04f126c92ed985815757514ba36526))
+* add link-classed button ([a30abf2](https://github.com/accessibility-in-action/looseleaf/commit/a30abf247a570d09513ba227d54d649dd6ca7da2))
+* add radio button component (resolves [#11](https://github.com/accessibility-in-action/looseleaf/issues/11)) ([b0002d5](https://github.com/accessibility-in-action/looseleaf/commit/b0002d5ad40ff4edcd47305bf012fc87827ecc8a))
+* improve link component ([46461f8](https://github.com/accessibility-in-action/looseleaf/commit/46461f8721fe4f38bbb1f3e3dff69b9dd3c55424))
+
 ## [1.1.0](https://github.com/accessibility-in-action/looseleaf/compare/1.0.1...1.1.0) (2021-03-02)
 
 
