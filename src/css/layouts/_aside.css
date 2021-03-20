@@ -1,3 +1,16 @@
 aside {
-    /* TODO */
+    margin: 0 auto;
+    max-width: 65ch;
+    padding: var(--step-0);
+    width: 100%;
+}
+
+@media (min-width: 200ch) {
+    aside {
+        float: left;
+        inset-block-start: var(--step-0);
+        margin-inline-start: calc((100% - 65ch) / 2 - 20ch);
+        position: sticky;
+        width: 20ch;
+    }
 }
