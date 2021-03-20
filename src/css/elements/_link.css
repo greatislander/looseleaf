@@ -1,0 +1,50 @@
+a {
+    color: var(--ll-link-color);
+}
+
+a[aria-current="page"] {
+    text-decoration-style: double;
+}
+
+a:visited {
+    color: var(--ll-text-color);
+}
+
+a:focus {
+    background-color: var(--ll-background-color);
+    border-radius: var(--ll-border-radius);
+    box-shadow: var(--ll-link-focus-box-shadow);
+    outline: none;
+}
+
+a:active {
+    background-color: var(--ll-accent-color);
+    border-radius: var(--ll-border-radius);
+    box-shadow: var(--ll-link-focus-box-shadow);
+    color: var(--ll-background-color);
+}
+
+a.button {
+    appearance: none;
+    background: var(--ll-background-color);
+    border: var(--ll-border-medium);
+    border-radius: var(--ll-border-radius);
+    color: var(--ll-text-color);
+    display: inline-block;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: inherit;
+    padding: var(--step--5) var(--step--4);
+    text-decoration: none;
+}
+
+a.button:focus {
+    box-shadow: var(--ll-input-focus-box-shadow);
+    outline: none;
+}
+
+a.button:active {
+    background: var(--ll-text-color);
+    color: var(--ll-background-color);
+}

@@ -3,5 +3,13 @@ module.exports = {
     context: {
         type: "button",
         text: "Press this button"
-    }
+    },
+    variants: [
+        {
+            name: "link",
+            context: {
+                class: "link"
+            }
+        }
+    ]
 };

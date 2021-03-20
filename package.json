@@ -55,6 +55,7 @@
     "pinst": "2.1.4",
     "postcss": "8.2.6",
     "postcss-cli": "8.3.1",
+    "postcss-easy-import": "^3.0.0",
     "standard-version": "9.1.0",
     "stylelint-config-fluid": "0.1.0",
     "stylelint-use-logical": "1.1.0"

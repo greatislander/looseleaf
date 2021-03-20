@@ -1,0 +1,7 @@
+form > * + * {
+    margin-block-start: 1.5em;
+}
+
+.field > * + * {
+    margin-block-start: 0.5em;
+}

@@ -1,0 +1,9 @@
+fieldset {
+    border: var(--ll-border-medium);
+    border-radius: var(--ll-border-radius);
+}
+
+legend {
+    font-weight: 700;
+    padding-inline: var(--step--4);
+}

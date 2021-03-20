@@ -1,0 +1,30 @@
+input,
+textarea {
+    background-color: var(--ll-background-color);
+    border: var(--ll-border-medium);
+    border-radius: var(--ll-border-radius);
+    color: var(--ll-text-color);
+    display: block;
+    padding: var(--step--5) var(--step--4);
+    width: 100%;
+}
+
+input {
+    padding: var(--step--5) var(--step--4);
+}
+
+textarea {
+    min-height: calc(12 * var(--step-0));
+    padding: var(--step--2);
+    resize: vertical;
+}
+
+::-webkit-resizer {
+    display: none;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: var(--ll-input-focus-box-shadow);
+    outline: none;
+}

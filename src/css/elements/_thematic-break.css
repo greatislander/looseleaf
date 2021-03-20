@@ -1,0 +1,14 @@
+hr {
+    border: none;
+    display: block;
+    height: 1em;
+    margin-block-end: 0;
+    position: relative;
+}
+
+hr::after {
+    content: "***";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}

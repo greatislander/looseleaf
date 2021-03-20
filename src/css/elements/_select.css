@@ -1,0 +1,25 @@
+select {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--ll-text-color);
+    background-image: var(--ll-theme-select-icon, url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>'));
+    background-position: right var(--step--4) center;
+    background-repeat: no-repeat;
+    border: var(--ll-border-medium);
+    border-radius: var(--ll-border-radius);
+    color: var(--ll-background-color);
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: inherit;
+    padding: var(--step--5) var(--step-3) var(--step--5) var(--step--4);
+}
+
+[dir="rtl"] select {
+    background-position: center left var(--step--4);
+}
+
+select:focus {
+    box-shadow: var(--ll-input-focus-box-shadow);
+    outline: none;
+}
