@@ -7,7 +7,7 @@
     "build": "npm-run-all clean build:*",
     "build:css": "postcss src/css/style.css -o dist/style.min.css",
     "build:fractal": "fractal build",
-    "clean": "rimraf build dist/*",
+    "clean": "rimraf build dist/*.css",
     "lint": "run-s lint:*",
     "lint:js": "eslint *.js",
     "lint:css": "stylelint src/css/style.css",
