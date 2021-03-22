@@ -1,0 +1,16 @@
+blockquote {
+    border-left: var(--ll-border-medium);
+    border-top-left-radius: 0.125em 100%;
+    font-size: var(--step-1);
+    padding-inline-start: var(--step-0);
+}
+
+cite {
+    font-size: var(--step-0);
+    font-style: normal;
+    padding-inline-start: 2ch;
+}
+
+cite::before {
+    content: "–";
+}

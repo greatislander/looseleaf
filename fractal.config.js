@@ -1,6 +1,6 @@
 const fractal = module.exports = require("@frctl/fractal").create();
 
-fractal.set("project.title", "Looseleaf Prototyping Library");
+fractal.set("project.title", "Looseleaf Framework");
 fractal.components.engine("@frctl/nunjucks");
 fractal.components.set("ext", ".njk");
 fractal.components.set("path", __dirname + "/src/components");
