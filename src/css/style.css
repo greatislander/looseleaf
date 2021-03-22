@@ -12,6 +12,7 @@
 @import "./elements/radio-button.css";
 @import "./elements/select.css";
 @import "./elements/fieldset.css";
+@import "./elements/figure.css";
 @import "./layouts/header.css";
 @import "./layouts/main.css";
 @import "./layouts/aside.css";
