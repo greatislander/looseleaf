@@ -1,4 +1,4 @@
-<div class="field">
-    <input type="checkbox" id="email-me" name="email-me" />
-    <label for="email-me">Email me</label>
-</div>
+<p>
+    <input type="checkbox" id="{{ id if id else name }}" name="{{ name }}" />
+    <label for="{{ id if id else name }}">{{ label }}</label>
+</p>

@@ -1,3 +1,1 @@
-<button type="{{ type }}">{{ text }}</button>
-
-<p>Here's a <button class="link">button that looks like a link</button></p>
+<button {% if class %}class="{{ class }}"{% endif %} type="{{ type }}">{{ text }}</button>

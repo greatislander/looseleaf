@@ -1,3 +1,6 @@
 module.exports = {
-    status: "wip"
+    status: "ready",
+    context: {
+        levels: [1, 2, 3, 4]
+    }
 };

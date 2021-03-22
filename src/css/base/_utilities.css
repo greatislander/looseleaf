@@ -1,0 +1,31 @@
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 65ch;
+    padding: var(--step-0);
+}
+
+.flow > * + * {
+    margin-block-start: 1em;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-start {
+    text-align: start;
+}
+
+.align-end {
+    text-align: end;
+}

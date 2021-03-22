@@ -1,0 +1,6 @@
+<fieldset>
+    <legend>{{ legend }}</legend>
+    {%- for value, label in options -%}
+    {%- render '@checkbox', {name: name + '-' + value, id: name + '-' + value, value: value, label: label}, true -%}
+    {%- endfor -%}
+</fieldset>

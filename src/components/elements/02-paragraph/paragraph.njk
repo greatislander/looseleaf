@@ -1,2 +1,3 @@
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quod explicabo tempora aut aperiam voluptatem. Error, nihil ipsam non suscipit, illum fugit adipisci ex at natus doloremque laboriosam. Impedit, deleniti.</p>
-<p>Consequatur magni veniam quod numquam illo culpa cupiditate inventore, natus dignissimos. Praesentium porro accusantium aliquam minus quod tenetur odit quibusdam quasi quis.</p>
+{% for paragraph in paragraphs %}
+{%- render '@p', {content: paragraph.content} -%}
+{% endfor %}

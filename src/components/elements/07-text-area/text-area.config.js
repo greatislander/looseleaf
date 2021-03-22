@@ -1,3 +1,8 @@
 module.exports = {
-    status: "wip"
+    status: "ready",
+    context: {
+        name: "message",
+        id: false,
+        label: "Message"
+    }
 };

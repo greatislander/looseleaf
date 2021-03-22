@@ -1,0 +1,13 @@
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+fieldset > * + * {
+    margin-block-start: 0.5em;
+}
+
+legend {
+    font-weight: 700;
+    padding: 0;
+}

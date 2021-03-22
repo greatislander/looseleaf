@@ -1,9 +1,8 @@
-<div class="field">
-    <label for="flavour">Flavour</label>
-    <select id="flavour" name="flavour">
-        <option value=""></option>
-        <option value="chocolate">Chocolate</option>
-        <option value="vanilla">Vanilla</option>
-        <option value="strawberry">Strawberry</option>
+<p>
+    <label for="{{ name }}">{{ label }}</label>
+    <select id="{{ id if id else name }}" name="{{ name }}">
+        {%- for value, label in options -%}
+        <option value="{{ value }}"{% if default == value %} selected{% endif %}>{{ label }}</option>
+        {%- endfor -%}
     </select>
-</div>
+</p>
