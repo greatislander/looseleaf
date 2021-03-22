@@ -1,10 +1,12 @@
 button,
-input[type="submit"] {
+[type="submit"],
+[type="reset"] {
     appearance: none;
-    background: var(--ll-text-color);
     border: var(--ll-border-medium);
     border-radius: var(--ll-border-radius);
-    color: var(--ll-background-color);
+    border-style: solid;
+    border-width: 0.125rem;
+    display: inline-block;
     font-family: inherit;
     font-size: 100%;
     font-weight: 700;
@@ -12,16 +14,33 @@ input[type="submit"] {
     padding: var(--step--5) var(--step--4);
 }
 
+button,
+[type="submit"] {
+    background: var(--ll-text-color);
+    color: var(--ll-background-color);
+}
+
+[type="reset"] {
+    background: var(--ll-background-color);
+    color: var(--ll-text-color);
+}
+
 button:focus,
-input[type="submit"]:active {
+[type="submit"]:focus,
+[type="reset"]:focus {
     box-shadow: var(--ll-input-focus-box-shadow);
     outline: none;
 }
 
 button:active,
-input[type="submit"]:active {
+[type="submit"]:active {
     background: var(--ll-background-color);
     color: var(--ll-text-color);
+}
+
+[type="reset"]:active {
+    background: var(--ll-text-color);
+    color: var(--ll-background-color);
 }
 
 button.link {

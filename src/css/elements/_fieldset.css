@@ -3,6 +3,10 @@ fieldset {
     border-radius: var(--ll-border-radius);
 }
 
+fieldset > *:not(legend) + * {
+    margin-block-start: 1em;
+}
+
 legend {
     font-weight: 700;
     padding-inline: var(--step--4);
