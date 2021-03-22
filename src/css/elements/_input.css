@@ -19,10 +19,6 @@ textarea {
     resize: vertical;
 }
 
-::-webkit-resizer {
-    display: none;
-}
-
 input:focus,
 textarea:focus {
     box-shadow: var(--ll-input-focus-box-shadow);

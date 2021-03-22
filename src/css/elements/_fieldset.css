@@ -1,13 +1,13 @@
 fieldset {
-    border: var(--ll-border-medium);
-    border-radius: var(--ll-border-radius);
+    border: none;
+    padding: 0;
 }
 
-fieldset > *:not(legend) + * {
-    margin-block-start: 1em;
+fieldset > * + * {
+    margin-block-start: 0.5em;
 }
 
 legend {
     font-weight: 700;
-    padding-inline: var(--step--4);
+    padding: 0;
 }

@@ -3,7 +3,8 @@
     --ll-border-radius: 16rem 1rem 14rem 1rem / 1rem 14rem 1rem 16rem;
     --ll-border-color: var(--ll-theme-border-color, #000);
     --ll-text-color: var(--ll-theme-text-color, #000);
-    --ll-link-color: var(--ll-text-color, #000);
+    --ll-link-color: var(--ll-theme-link-color, var(--ll-text-color));
+    --ll-link-visited-color: var(--ll-theme-link-visited-color, var(--ll-link-color));
     --ll-accent-color: var(--ll-theme-accent-color, hsl(225, 73%, 57%));
     --ll-background-color: var(--ll-theme-background-color, #fff);
     --ll-input-focus-box-shadow: 0 0 0 0.125rem var(--ll-background-color), 0 0 0 0.25rem var(--ll-accent-color);

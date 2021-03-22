@@ -7,7 +7,7 @@ a[aria-current="page"] {
 }
 
 a:visited {
-    color: var(--ll-text-color);
+    color: var(--ll-link-visited-color);
 }
 
 a:focus {

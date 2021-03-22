@@ -2,19 +2,30 @@ module.exports = {
     status: "ready",
     context: {
         type: "button",
-        text: "Press this button"
+        text: "Click Me"
     },
     variants: [
         {
-            name: "reset",
+            name: "submit",
+            label: "Submit",
             context: {
-                type: "reset"
+                type: "submit",
+                text: "Save Changes"
+            }
+        },
+        {
+            name: "reset",
+            label: "Reset",
+            context: {
+                type: "reset",
+                text: "Reset Form"
             }
         },
         {
             name: "link",
             context: {
-                class: "link"
+                class: "link",
+                text: "Settings"
             }
         }
     ]

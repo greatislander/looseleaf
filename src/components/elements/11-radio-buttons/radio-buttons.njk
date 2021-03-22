@@ -1,0 +1,9 @@
+<fieldset>
+    <legend>{{ legend }}</legend>
+    {%- for value, label in options -%}
+    <p>
+        <input type="radio" id="{{ name }}-{{ value }}" name="{{ name }}" value="{{ value }}"{% if default == value %} checked{% endif %}/>
+        <label for="{{ name }}-{{ value }}">{{ label }}</label>
+    </p>
+    {%- endfor -%}
+</fieldset>
