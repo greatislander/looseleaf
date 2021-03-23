@@ -1,5 +1,5 @@
 :root {
-    --ll-font-family: "Comic Neue", -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    --ll-font-family: "Comic Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     --ll-border-radius: 16rem 1rem 14rem 1rem / 1rem 14rem 1rem 16rem;
     --ll-border-color: var(--ll-theme-border-color, #000);
     --ll-text-color: var(--ll-theme-text-color, #000);
@@ -7,8 +7,13 @@
     --ll-link-visited-color: var(--ll-theme-link-visited-color, var(--ll-link-color));
     --ll-accent-color: var(--ll-theme-accent-color, hsl(225, 73%, 57%));
     --ll-background-color: var(--ll-theme-background-color, #fff);
-    --ll-input-focus-box-shadow: 0 0 0 0.125rem var(--ll-background-color), 0 0 0 0.25rem var(--ll-accent-color);
-    --ll-link-focus-box-shadow: 0 0 0 0.25rem var(--ll-accent-color);
+    --ll-input-focus-box-shadow:
+        var(
+            --ll-theme-input-focus-box-shadow,
+            0 0 0 0.125rem var(--ll-background-color),
+            0 0 0 0.25rem var(--ll-accent-color)
+        );
+    --ll-link-focus-box-shadow: var(--ll-them-link-focus-box-shadow, 0 0 0 0.25rem var(--ll-accent-color));
     --ll-border-thin: 0.0625rem solid var(--ll-border-color);
     --ll-border-medium: 0.125rem solid var(--ll-border-color);
     --ll-border-thick: 0.1875rem solid var(--ll-border-color);
