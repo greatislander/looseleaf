@@ -1,11 +1,13 @@
 .github
 .commitlintrc.json
+.markdownlint.jsonc
 .gitignore
 .husky
 .npmignore
 .nvmrc
 .stylelintrc.json
 build
+dist/images
 fractal.config.js
 postcss.config.js
 src/components
