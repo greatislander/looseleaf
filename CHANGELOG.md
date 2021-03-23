@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/accessibility-in-action/looseleaf/compare/1.2.0...1.3.0) (2021-03-23)
+
+
+### Features
+
+* add blockquote element (resolves [#19](https://github.com/accessibility-in-action/looseleaf/issues/19)) ([715ca43](https://github.com/accessibility-in-action/looseleaf/commit/715ca43dda942f157004bef645a6c4c03af09316))
+* add figure (resolves [#20](https://github.com/accessibility-in-action/looseleaf/issues/20)) ([a965b82](https://github.com/accessibility-in-action/looseleaf/commit/a965b8268797640f96d797476e34173abdad578d))
+* add layouts for header, main, aside, and footer ([90cafaa](https://github.com/accessibility-in-action/looseleaf/commit/90cafaa576c5dc4db213e01da8658f9e03e9702c))
+* add postcss-easy-import and split CSS into components ([a14c551](https://github.com/accessibility-in-action/looseleaf/commit/a14c55171f65970ab03dc2d440e5628bada4897f))
+* clean up and document heading, paragraph, link, and button components ([11d309e](https://github.com/accessibility-in-action/looseleaf/commit/11d309e3dd8911500c65c740f52a42bc8ede8537))
+* unordered and ordered lists (resolves [#21](https://github.com/accessibility-in-action/looseleaf/issues/21)) ([382805d](https://github.com/accessibility-in-action/looseleaf/commit/382805de3d40b8a2e6efcab1bcdc54d396157bda))
+
+
+### Bug Fixes
+
+* adjust build process ([caaa09b](https://github.com/accessibility-in-action/looseleaf/commit/caaa09bb17af57e28a634c5406ab3afce91abca8))
+
 ## [1.2.0](https://github.com/accessibility-in-action/looseleaf/compare/1.1.0...1.2.0) (2021-03-15)
 
 
