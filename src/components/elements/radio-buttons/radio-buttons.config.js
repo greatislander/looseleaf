@@ -3,7 +3,7 @@ module.exports = {
     status: "ready",
     context: {
         name: "flavour",
-        legend: "Flavour",
+        legend: "Favourite Flavour",
         default: "chocolate",
         options: {
             chocolate: "Chocolate",

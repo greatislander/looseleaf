@@ -4,7 +4,7 @@ module.exports = {
     context: {
         name: "flavour",
         id: false,
-        label: "Flavour",
+        label: "Favourite Flavour",
         default: "",
         options: {
             "": "",
