@@ -4,6 +4,7 @@
 @import "./base/typography.css";
 @import "./elements/blockquote.css";
 @import "./elements/thematic-break.css";
+@import "./elements/list.css";
 @import "./elements/link.css";
 @import "./elements/button.css";
 @import "./elements/label.css";
