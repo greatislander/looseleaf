@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/accessibility-in-action/looseleaf/compare/1.3.0...1.3.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* correct variable name ([7fbfd15](https://github.com/accessibility-in-action/looseleaf/commit/7fbfd15458cb7ee47006eee6c9f32a9cdd796d45))
+
 ## [1.3.0](https://github.com/accessibility-in-action/looseleaf/compare/1.2.0...1.3.0) (2021-03-23)
 
 
