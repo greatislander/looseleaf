@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.4](https://github.com/accessibility-in-action/looseleaf/compare/1.3.3...1.3.4) (2021-07-15)
+
+
+### Bug Fixes
+
+* address a linting issue ([7468263](https://github.com/accessibility-in-action/looseleaf/commit/7468263b25ca684b3aa33441f59154db79b81aaa))
+
 ### [1.3.3](https://github.com/accessibility-in-action/looseleaf/compare/1.3.2...1.3.3) (2021-07-15)
 
 
