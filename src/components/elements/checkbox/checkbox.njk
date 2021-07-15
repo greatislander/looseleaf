@@ -1,4 +1,4 @@
 <p>
-    <input type="checkbox" id="{{ id if id else name }}" name="{{ name }}" />
+    <input type="checkbox" id="{{ id if id else name }}" name="{{ name }}"{% if value %} value="{{ value }}"{% endif %} />
     <label for="{{ id if id else name }}">{{ label }}</label>
 </p>
