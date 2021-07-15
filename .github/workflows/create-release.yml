@@ -11,24 +11,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set env
-        run: echo ::set-env name=RELEASE_VERSION::$(echo ${GITHUB_REF:10})
+      
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Get tag
+        uses: olegtarasov/get-tag@v2.1
+        id: tag
       - name: Get changelog entry
         id: changelog
         uses: mindsers/changelog-reader-action@v2
         with:
           validation_depth: 10
-          version: "$RELEASE_VERSION"
+          version: ${{ steps.tag.outputs.tag }}
           path: ./CHANGELOG.md
       - name: Create release
-        uses: actions/create-release@v1
+        uses: softprops/action-gh-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: "$RELEASE_VERSION"
-          release_name: "$RELEASE_VERSION"
+          tag_name: ${{ steps.tag.outputs.tag }}
+          release_name: ${{ steps.tag.outputs.tag }}
           body: ${{ steps.changelog.outputs.changes }}
           prerelease: ${{ steps.changelog.outputs.status == 'prereleased' }}
           draft: ${{ steps.changelog.outputs.status == 'unreleased' }}
