@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.3](https://github.com/accessibility-in-action/looseleaf/compare/1.3.2...1.3.3) (2021-07-15)
+
+
+### Bug Fixes
+
+* restore default list styles ([7799ba4](https://github.com/accessibility-in-action/looseleaf/commit/7799ba42e0c008ff30deb0cf62dcd513cc56c2cb))
+
 ### [1.3.2](https://github.com/accessibility-in-action/looseleaf/compare/1.3.1...1.3.2) (2021-07-15)
 
 
