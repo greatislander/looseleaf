@@ -3,6 +3,7 @@
 @import "./base/utilities.css";
 @import "./base/typography.css";
 @import "./elements/blockquote.css";
+@import "./elements/pre.css";
 @import "./elements/thematic-break.css";
 @import "./elements/list.css";
 @import "./elements/link.css";
