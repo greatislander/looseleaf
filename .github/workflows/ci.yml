@@ -2,13 +2,13 @@ name: Lint JS and CSS assets
 
 on:
   push:
-    branches: [ main ]
+    branches: [ dev, main ]
     paths:
     - '**.js'
     - '**.css'
     - 'package.json'
   pull_request:
-    branches: [ main ]
+    branches: [ dev, main ]
     paths:
     - '**.js'
     - '**.css'
