@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "12.1.4",
-    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/config-conventional": "13.1.0",
     "@frctl/fractal": "1.5.9",
     "@frctl/nunjucks": "2.0.13",
     "autoprefixer": "10.3.1",
