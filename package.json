@@ -42,7 +42,7 @@
     "*.js": "eslint"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.1.4",
+    "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
     "@frctl/fractal": "1.5.11",
     "@frctl/nunjucks": "2.0.13",
