@@ -62,5 +62,8 @@
     "rimraf": "3.0.2",
     "stylelint-config-fluid": "0.2.1",
     "stylelint-use-logical": "1.1.0"
+  },
+  "dependencies": {
+    "modern-css-reset": "^1.4.0"
   }
 }
