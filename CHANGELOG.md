@@ -14,7 +14,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* add <pre> element (fix [#57](https://github.com/accessibility-in-action/looseleaf/issues/57)) ([49f475f](https://github.com/accessibility-in-action/looseleaf/commit/49f475fdcb0ca3a4c6e0b18e35fbcec2ec09b62f))
+* add `<pre>` element (fix [#57](https://github.com/accessibility-in-action/looseleaf/issues/57)) ([49f475f](https://github.com/accessibility-in-action/looseleaf/commit/49f475fdcb0ca3a4c6e0b18e35fbcec2ec09b62f))
 
 ### [1.3.4](https://github.com/accessibility-in-action/looseleaf/compare/1.3.3...1.3.4) (2021-07-15)
 
