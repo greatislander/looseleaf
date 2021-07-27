@@ -1,4 +1,7 @@
-[![Deployed with Netlify](https://badgen.net/badge/deployed/with%20netlify/cyan)](https://looseleaf.netlify.app) [![License](https://badgen.net/github/license/accessibility-in-action/looseleaf)](https://github.com/accessibility-in-action/looseleaf/blob/main/LICENSE.md) [![GitHub Release](https://badgen.net/github/release/accessibility-in-action/looseleaf)](https://github.com/accessibility-in-action/looseleaf/releases/latest) [![NPM Package](https://badgen.net/npm/v/@accessibility-in-action/looseleaf)](https://npmjs.com/package/@accessibility-in-action/looseleaf)
+[![Deployed with Netlify](https://badgen.net/badge/deployed/with%20netlify/cyan)](https://looseleaf.netlify.app)
+[![License](https://badgen.net/github/license/accessibility-in-action/looseleaf)](https://github.com/accessibility-in-action/looseleaf/blob/main/LICENSE.md)
+[![GitHub Release](https://badgen.net/github/release/accessibility-in-action/looseleaf)](https://github.com/accessibility-in-action/looseleaf/releases/latest)
+[![NPM Package](https://badgen.net/npm/v/@accessibility-in-action/looseleaf)](https://npmjs.com/package/@accessibility-in-action/looseleaf)
 
 Looseleaf is a sketchy CSS framework for prototyping. Wherever possible, it is a
 classless framework--most elements are styled based on their HTML tags and
@@ -34,8 +37,9 @@ Some techniques in Looseleaf are inspired by prior work:
 
 - [Bruck](https://github.com/Heydon/bruck)
 - [Every Layout](https://every-layout.dev/)
-- [handdrawn.css](http://fxaeberhard.github.io/handdrawn.css/)
-- [Native Elements](http://native-elements.dev/)
+- [handdrawn.css](https://fxaeberhard.github.io/handdrawn.css/)
+- [Native Elements](https://native-elements.dev/)
+- [Primer](https://primer.style/)
 - [tacit](https://yegor256.github.io/tacit/)
 - [Tailwind CSS Typography](https://tailwindcss-typography.netlify.app/)
 

@@ -15,10 +15,10 @@ All of Looseleaf's custom properties are namespaced using the `--ll-` prefix.
     --ll-font-family:
         "Comic Neue",
         -apple-system,
-        BlinkMacSystemFont,
+        "BlinkMacSystemFont",
         "Segoe UI",
-        Helvetica,
-        Arial,
+        "Helvetica",
+        "Arial",
         sans-serif;
 }
 ```
@@ -27,6 +27,28 @@ All of Looseleaf's custom properties are namespaced using the `--ll-` prefix.
 
 Looseleaf's default font stack uses [Comic Neue](http://comicneue.com/) for a
 casual, handwritten appearance and falls back to a [system font stack](https://css-tricks.com/snippets/css/system-font-stack/).
+
+### font-family-mono
+
+#### Default
+
+```css
+:root {
+    --ll-font-family-mono:
+        ui-monospace,
+        "SFMono-Regular",
+        "SF Mono",
+        "Menlo",
+        "Consolas",
+        "Liberation Mono",
+        monospace;
+}
+```
+
+#### Description
+
+Looseleaf's default monospace font stack uses the same cross-platform monospace system
+font stack that is [used by GitHub](https://github.com/primer/css/blob/0298b69bda4c25ed252fbeb6ba2e3fcf4ff096d2/src/support/variables/typography.scss#L39).
 
 ### border-radius
 
@@ -150,7 +172,22 @@ is provided, it will be used instead.
 
 #### Description
 
-The default background colour is white (`#fff`). If a [theme text colour](#theme-background-color)
+The default background colour is white (`#fff`). If a [theme background colour](#theme-background-color)
+is provided, it will be used instead.
+
+### accent-background-color
+
+#### Default
+
+```css
+:root {
+    --ll-accent-background-color: var(--ll-theme-accent-background-color, #ddd);
+}
+```
+
+#### Description
+
+The default accent background colour is `#ddd`. If a [theme accent background colour](#theme-acccent-background-color)
 is provided, it will be used instead.
 
 ### input-focus-box-shadow
@@ -304,6 +341,10 @@ Overrides the default [accent color](#accent-color).
 ### theme-background-color
 
 Overrides the default [background color](#background-color).
+
+### theme-accent-background-color
+
+Overrides the default [accent background color](#accent-background-color).
 
 ### theme-input-focus-box-shadow
 
