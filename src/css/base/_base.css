@@ -3,6 +3,7 @@ body {
     color: var(--ll-text-color);
     font-family: var(--ll-font-family);
     font-size: var(--step-0);
+    width: 100%;
 }
 
 ::selection {
