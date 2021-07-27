@@ -47,7 +47,7 @@
     "@frctl/fractal": "1.5.11",
     "@frctl/nunjucks": "2.0.13",
     "autoprefixer": "10.3.1",
-    "cssnano": "5.0.6",
+    "cssnano": "5.0.7",
     "eslint": "7.31.0",
     "eslint-config-fluid": "2.0.0",
     "faker": "5.5.3",
