@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.2](https://www.github.com/accessibility-in-action/looseleaf/compare/v1.4.1...v1.4.2) (2021-07-27)
+
+
+### Bug Fixes
+
+* set body width to 100% ([ffd8f85](https://www.github.com/accessibility-in-action/looseleaf/commit/ffd8f851ece7c65c7d2064a3f6e73fc9130ec3c5))
+
 ### [1.4.1](https://github.com/accessibility-in-action/looseleaf/compare/1.4.0...1.4.1) (2021-07-27)
 
 
