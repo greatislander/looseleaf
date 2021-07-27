@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit guidelines.
 
 ### [1.4.2](https://www.github.com/accessibility-in-action/looseleaf/compare/v1.4.1...v1.4.2) (2021-07-27)
 
