@@ -1,6 +1,6 @@
 {
   "name": "@accessibility-in-action/looseleaf",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Sketchy CSS framework for prototyping.",
   "main": "dist/style.min.css",
   "scripts": {
