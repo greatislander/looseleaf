@@ -42,6 +42,18 @@
     --ll-text-color: var(--ll-theme-text-color, #000);
 
     /* doxray
+    label: text-color-translucent
+    description: The default text colour is black (`#000`); this variable is a translucent version for use in gradients. If a [theme translucent text colour](#theme-text-color-translucent) is provided, it will be used instead.
+    */
+    --ll-text-color-translucent: var(--ll-theme-text-color-translucent, rgba(0, 0, 0, 0.2));
+
+    /* doxray
+    label: text-color-transparent
+    description: The default text colour is black (`#000`); this variable is a transparent version for use in gradients. If a [theme transparent text colour](#theme-text-color-transparent) is provided, it will be used instead.
+    */
+    --ll-text-color-transparent: var(--ll-theme-text-color-transparent, rgba(0, 0, 0, 0));
+
+    /* doxray
     label: link-color
     description: Links use the default text colour. If a [theme link colour](#theme-link-color) is provided, it will be used instead.
     */
@@ -64,6 +76,12 @@
     description: The default background colour is white (`#fff`). If a [theme background colour](#theme-background-color) is provided, it will be used instead.
     */
     --ll-background-color: var(--ll-theme-background-color, #fff);
+
+    /* doxray
+    label: background-color-transparent
+    description: The default background colour is white (`#fff`); this variable is a transparent version for use in gradients. If a [theme transparent background colour](#theme-background-color-transparent) is provided, it will be used instead.
+    */
+    --ll-background-color-transparent: var(--ll-theme-background-color-transparent, rgba(255, 255, 255, 0));
 
     /* doxray
     label: accent-background-color

@@ -1,0 +1,28 @@
+<div role="region" tabindex="0" aria-label="{{ label }}" aria-describedby="table-caption">
+    <table{% if captionSide === 'bottom'%} data-caption="bottom"{% endif %}>
+        {% if caption -%}
+        <caption id="table-caption">{{ caption }}</caption>
+        {%- endif -%}
+        {% if columnHeaders.length > 0 %}
+        <thead>
+            <tr>
+                {% for header in columnHeaders -%}
+                <th>{{ header }}</th>
+                {%- endfor %}
+            </tr>
+        </thead>
+        {% endif %}
+        <tbody>
+            {% for record in records -%}
+            <tr>
+                {%- if rowHeaders[loop.index0] %}
+                <th scope="row">{{ rowHeaders[loop.index0] }}</th>
+                {%- endif %}
+                {% for column in record -%}
+                <td>{{ column }}</td>
+                {%- endfor %}
+            </tr>
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>

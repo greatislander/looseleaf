@@ -1,0 +1,95 @@
+[role="region"][tabindex] {
+    background:
+        linear-gradient(to right, var(--ll-background-color) 30%, var(--ll-background-color-transparent)),
+        linear-gradient(to right, var(--ll-background-color-transparent), var(--ll-background-color) 70%) 0 100%,
+        radial-gradient(
+            farthest-side at 0% 50%,
+            var(--ll-text-color-translucent),
+            var(--ll-text-color-transparent)
+        ),
+        radial-gradient(
+            farthest-side at 100% 50%,
+            var(--ll-text-color-translucent),
+            var(--ll-text-color-transparent)
+        )
+        0 100%;
+    background-attachment: local, local, scroll, scroll;
+    background-color: var(--ll-background-color);
+    background-position: 0 0, 100%, 0 0, 100%;
+    background-repeat: no-repeat;
+    background-size: var(--step-2) 100%, var(--step-2) 100%, var(--step--1) 100%, var(--step--1) 100%;
+    border: 0;
+    margin-inline-end: calc(-1 * 0.25rem);
+    margin-inline-start: calc(-1 * 0.25rem);
+    overflow: auto;
+}
+
+[role="region"][tabindex]:focus {
+    box-shadow: var(--ll-link-focus-box-shadow);
+    outline: none;
+}
+
+table {
+    border: 0;
+    border-collapse: separate;
+    border-spacing: 0.25rem;
+    width: 100%;
+}
+
+[data-caption="bottom"] {
+    caption-side: bottom;
+}
+
+caption {
+    font-size: var(--step--1);
+    font-style: italic;
+    margin-block-end: var(--step--4);
+    text-align: center;
+}
+
+[data-caption="bottom"] caption {
+    margin-block-end: 0;
+    margin-block-start: var(--step--4);
+}
+
+thead,
+tbody,
+tfoot {
+    border: 0;
+}
+
+thead th {
+    border: var(--ll-border-medium);
+    border-color: var(--ll-text-color);
+}
+
+th {
+    border: 0;
+    padding: var(--step--3);
+}
+
+th[scope="row"] {
+    text-align: end;
+}
+
+td {
+    border: 0;
+    padding: var(--step--3);
+    text-align: start;
+}
+
+tbody tr:nth-child(odd) {
+    background: var(--ll-accent-background-color);
+}
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --ll-theme-text-color: #fff;
+        --ll-theme-text-color-translucent: rgba(255, 255, 255, 0.2);
+        --ll-theme-text-color-transparent: rgba(255, 255, 255, 0);
+        --ll-theme-accent-background-color: #333;
+        --ll-theme-accent-color: hsl(45, 73%, 57%);
+        --ll-theme-background-color: #000;
+        --ll-theme-background-color-transparent: rgba(0, 0, 0, 0);
+    }
+} */

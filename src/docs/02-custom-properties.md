@@ -74,6 +74,14 @@ Overrides the default [border color](#border-color).
 
 Overrides the default [text color](#text-color).
 
+### theme-text-color-translucent
+
+Overrides the default [translucent text color](#text-color-translucent).
+
+### theme-text-color-transparent
+
+Overrides the default [transparent text color](#text-color-transparent).
+
 ### theme-link-color
 
 Overrides the default [link color](#link-color).
@@ -89,6 +97,10 @@ Overrides the default [accent color](#accent-color).
 ### theme-background-color
 
 Overrides the default [background color](#background-color).
+
+### theme-background-color-transparent
+
+Overrides the default [transparent background color](#background-color-transparent).
 
 ### theme-accent-background-color
 
