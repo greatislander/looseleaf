@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit guidelines.
 
+## [1.5.0](https://www.github.com/accessibility-in-action/looseleaf/compare/v1.4.2...v1.5.0) (2021-08-09)
+
+
+### Features
+
+* add table layout (resolves [#27](https://www.github.com/accessibility-in-action/looseleaf/issues/27)) ([#69](https://www.github.com/accessibility-in-action/looseleaf/issues/69)) ([1146b5a](https://www.github.com/accessibility-in-action/looseleaf/commit/1146b5a4584b35b3f2e04cce1872e37bf1e2b65c))
+* bundle modern-css-reset in built CSS ([#73](https://www.github.com/accessibility-in-action/looseleaf/issues/73)) ([c9ef591](https://www.github.com/accessibility-in-action/looseleaf/commit/c9ef5910573047dd7bd213cfae1eadee73a2b1e5))
+* update monospace font stack ([#70](https://www.github.com/accessibility-in-action/looseleaf/issues/70)) ([aaedf56](https://www.github.com/accessibility-in-action/looseleaf/commit/aaedf56aa1780774ab1d49903a348f46f766c531))
+
 ### [1.4.2](https://www.github.com/accessibility-in-action/looseleaf/compare/v1.4.1...v1.4.2) (2021-07-27)
 
 
