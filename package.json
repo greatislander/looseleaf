@@ -1,6 +1,6 @@
 {
   "name": "@fluid-project/looseleaf",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Sketchy CSS framework for prototyping.",
   "main": "dist/style.min.css",
   "scripts": {
