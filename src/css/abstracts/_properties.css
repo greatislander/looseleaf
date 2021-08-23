@@ -1,20 +1,20 @@
 :root {
     /* doxray
     label: font-family
-    description: Looseleaf's default font stack uses [Comic Neue](http://comicneue.com/) for a casual, handwritten appearance and falls back to a [system font stack](https://css-tricks.com/snippets/css/system-font-stack/).
+    description: Loose Leaf's default font stack uses [Comic Neue](http://comicneue.com/) for a casual, handwritten appearance and falls back to a [system font stack](https://css-tricks.com/snippets/css/system-font-stack/).
     */
     --ll-font-family: "Comic Neue", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", "Arial", sans-serif;
 
     /* doxray
     label: font-family-mono
-    description: Looseleaf's default monospace font stack uses the same cross-platform monospace system font stack that is [used by GitHub](https://github.com/primer/css/blob/0298b69bda4c25ed252fbeb6ba2e3fcf4ff096d2/src/support/variables/typography.scss#L39).
+    description: Loose Leaf's default monospace font stack uses the same cross-platform monospace system font stack that is [used by GitHub](https://github.com/primer/css/blob/0298b69bda4c25ed252fbeb6ba2e3fcf4ff096d2/src/support/variables/typography.scss#L39).
     */
     --ll-font-family-mono: ui-monospace, "SFMono-Regular", "SF Mono", "Menlo", "Consolas", "Liberation Mono", monospace;
 
     /* doxray
     label: border-radius
     description: >
-        Looseleaf's default [border radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) is based on [handdrawn.css](https://github.com/fxaeberhard/handdrawn.css/blob/master/scss/handdrawn.scss#L50-L57) and is shorthand for the following:
+        Loose Leaf's default [border radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) is based on [handdrawn.css](https://github.com/fxaeberhard/handdrawn.css/blob/master/scss/handdrawn.scss#L50-L57) and is shorthand for the following:
 
         ```css
 
@@ -125,19 +125,19 @@
 
     /* doxray
     label: border-thin
-    description: Looseleaf's thin border has a `border-width` equivalent to 1px.
+    description: Loose Leaf's thin border has a `border-width` equivalent to 1px.
     */
     --ll-border-thin: 0.0625rem solid var(--ll-border-color);
 
     /* doxray
     label: border-medium
-    description: Looseleaf's medium border has a `border-width` equivalent to 2px.
+    description: Loose Leaf's medium border has a `border-width` equivalent to 2px.
     */
     --ll-border-medium: 0.125rem solid var(--ll-border-color);
 
     /* doxray
     label: border-thick
-    description: Looseleaf's thick border has a `border-width` equivalent to 3px.
+    description: Loose Leaf's thick border has a `border-width` equivalent to 3px.
     */
     --ll-border-thick: 0.1875rem solid var(--ll-border-color);
 

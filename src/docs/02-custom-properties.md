@@ -1,8 +1,8 @@
-Looseleaf makes heavy use of CSS custom properties. This allows the framework
+Loose Leaf makes heavy use of CSS custom properties. This allows the framework
 to be customized in various ways. The properties and their default values are
 documented here.
 
-All of Looseleaf's custom properties are namespaced using the `--ll-` prefix.
+All of Loose Leaf's custom properties are namespaced using the `--ll-` prefix.
 
 ## Core Properties
 
@@ -25,7 +25,7 @@ All of Looseleaf's custom properties are namespaced using the `--ll-` prefix.
 {% endfor %}
 ## Theming
 
-Looseleaf is designed for colour customization. For example, it's very
+Loose Leaf is designed for colour customization. For example, it's very
 straightforward to add support for dark mode using the [`@prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
 media query with the following CSS:
 

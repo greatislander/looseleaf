@@ -1,5 +1,5 @@
 {
-  "name": "@accessibility-in-action/looseleaf",
+  "name": "loose-leaf",
   "version": "1.6.0",
   "description": "Sketchy CSS framework for prototyping.",
   "main": "dist/style.min.css",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/accessibility-in-action/looseleaf.git"
+    "url": "git+ssh://git@github.com/fluid-project/loose-leaf.git"
   },
   "keywords": [
     "css",
@@ -33,9 +33,9 @@
   "author": "OCAD University",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/accessibility-in-action/looseleaf/issues"
+    "url": "https://github.com/fluid-project/loose-leaf/issues"
   },
-  "homepage": "https://github.com/accessibility-in-action/looseleaf#readme",
+  "homepage": "https://github.com/fluid-project/loose-leaf#readme",
   "lint-staged": {
     "*.css": "stylelint",
     "*.js": "eslint"
