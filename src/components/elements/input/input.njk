@@ -1,4 +1,19 @@
-<p>
+{% set ariaDescribedby = '' %}
+{% if hint %}
+    {% set ariaDescribedby = name + '-hint' %}
+{% elif error %}
+    {% set ariaDescribedby = name + '-error' %}
+{% elif hint and error %}
+    {% set ariaDescribedby = name + '-hint' + " " + name + '-error' %}
+{% endif %}
+
+<div class="field{% if error %} field--error{% endif %}">
     <label for="{{ name }}">{{ label }}</label>
-    <input type="{{ type }}" id="{{ id if id else name }}" name="{{ name }}" />
-</p>
+    <input type="{{ type }}" id="{{ id if id else name }}" name="{{ name }}" {% if ariaDescribedby != '' %}aria-describedby="{{ ariaDescribedby }}" {% endif %}{% if error %} aria-invalid="true"{% endif %} />
+    {%- if hint %}
+    {% render '@hint', { name: name, content: hint } %}
+    {%- endif %}
+    {%- if error %}
+    {% render '@error', { name: name, content: error } %}
+    {%- endif -%}
+</div>

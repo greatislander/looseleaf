@@ -82,6 +82,10 @@ Overrides the default [translucent text color](#text-color-translucent).
 
 Overrides the default [transparent text color](#text-color-transparent).
 
+### theme-text-color-error
+
+Overrides the default [error text color](#text-color-error).
+
 ### theme-link-color
 
 Overrides the default [link color](#link-color).
@@ -109,6 +113,10 @@ Overrides the default [accent background color](#accent-background-color).
 ### theme-input-focus-box-shadow
 
 Overrides the default [input focus box shadow](#input-focus-box-shadow).
+
+### theme-input-focus-box-shadow-error
+
+Overrides the default [input focus box shadow (error)](#input-focus-box-shadow-error).
 
 ### theme-link-focus-box-shadow
 

@@ -24,3 +24,13 @@ textarea:focus {
     box-shadow: var(--ll-input-focus-box-shadow);
     outline: none;
 }
+
+.field--error input,
+.field--error textarea {
+    border-color: var(--ll-text-color-error);
+}
+
+.field--error input:focus,
+.field--error textarea:focus {
+    box-shadow: var(--ll-input-focus-box-shadow-error);
+}

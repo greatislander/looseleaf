@@ -12,6 +12,7 @@ button,
     font-weight: 700;
     line-height: inherit;
     padding: var(--step--5) var(--step--4);
+    width: auto;
 }
 
 button,

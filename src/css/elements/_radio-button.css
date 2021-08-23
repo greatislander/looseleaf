@@ -39,3 +39,25 @@ input[type="radio"]:checked:active + label::before {
     background-color: var(--ll-text-color);
     box-shadow: var(--ll-input-focus-box-shadow), 0 0 0 0.25rem var(--ll-background-color) inset;
 }
+
+.field--error input[type="radio"] + label::before {
+    border-color: var(--ll-text-color-error);
+}
+
+.field--error input[type="radio"]:focus + label::before {
+    box-shadow: var(--ll-input-focus-box-shadow-error);
+}
+
+.field--error input[type="radio"]:active + label::before {
+    box-shadow: var(--ll-input-focus-box-shadow-error);
+}
+
+.field--error input[type="radio"]:checked + label::before {
+    background-color: var(--ll-text-color-error);
+}
+
+.field--error input[type="radio"]:checked:focus + label::before,
+.field--error input[type="radio"]:checked:active + label::before {
+    background-color: var(--ll-text-color-error);
+    box-shadow: var(--ll-input-focus-box-shadow-error), 0 0 0 0.25rem var(--ll-background-color) inset;
+}

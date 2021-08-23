@@ -1,5 +1,7 @@
 <form>
     {%- render "@input" -%}
     {%- render "@text-area" -%}
+    {%- render "@radio-buttons", { name: "contact", legend: "Keep me informed", options: { email: "By email", phone: "By phone", neither: "Don't contact me" } } -%}
+    {%- render "@checkboxes", { name: "source", legend: "How did you hear about this project?", options: { friend: "A friend", website: "A website", social: "Social media" } } -%}
     {%- render "@button", {"type": "submit", "text": "Send message"} -%}
 </form>

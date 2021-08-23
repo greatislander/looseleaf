@@ -5,6 +5,21 @@ module.exports = {
         name: "name",
         id: false,
         type: "text",
-        label: "Name"
-    }
+        label: "Name",
+        hint: false,
+        error: false
+    },
+    variants: [
+        {
+            name: "hint",
+            context: {
+                hint: "Please enter your full name."
+            }
+        },
+        {name: "error",
+            context: {
+                error: "You must enter your name."
+            }
+        }
+    ]
 };

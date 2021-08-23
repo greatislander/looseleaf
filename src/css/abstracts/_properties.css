@@ -54,6 +54,12 @@
     --ll-text-color-transparent: var(--ll-theme-text-color-transparent, rgba(0, 0, 0, 0));
 
     /* doxray
+    label: text-color-error
+    description: The default text colour for errors is `#b60000`; this variable is used to display content that is in an error state, alongside other indicators. If a [theme error text colour](#theme-text-color-error) is provided, it will be used instead.
+    */
+    --ll-text-color-error: var(--ll-theme-text-color-error, #b60000);
+
+    /* doxray
     label: link-color
     description: Links use the default text colour. If a [theme link colour](#theme-link-color) is provided, it will be used instead.
     */
@@ -101,6 +107,17 @@
         );
 
     /* doxray
+    label: input-focus-box-shadow-error
+    description: Focused inputs in an error state have their outline removed and instead use a focus ring created with a [box shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) in the [error text colour](#text-color-error). If a [theme input focus box shadow (error)](#theme-input-focus-box-shadow-error) is provided, it will be used instead.
+    */
+    --ll-input-focus-box-shadow-error:
+        var(
+            --ll-theme-input-focus-box-shadow-error,
+            0 0 0 0.125rem var(--ll-background-color),
+            0 0 0 0.25rem var(--ll-text-color-error)
+        );
+
+    /* doxray
     label: link-focus-box-shadow
     description: Focused links have their outline removed and instead use a focus ring created with a [box shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow). If a [theme link focus box shadow](#theme-link-focus-box-shadow) is provided, it will be used instead.
     */
@@ -123,6 +140,24 @@
     description: Looseleaf's thick border has a `border-width` equivalent to 3px.
     */
     --ll-border-thick: 0.1875rem solid var(--ll-border-color);
+
+    /* doxray
+    label: border-dashed-thin
+    description: Looseleaf's thin dashed border has a `border-width` equivalent to 1px.
+    */
+    --ll-border-dashed-thin: 0.0625rem dashed var(--ll-border-color);
+
+    /* doxray
+    label: border-dashed-medium
+    description: Looseleaf's medium dashed border has a `border-width` equivalent to 2px.
+    */
+    --ll-border-dashed-medium: 0.125rem dashed var(--ll-border-color);
+
+    /* doxray
+    label: border-dashed-thick
+    description: Looseleaf's thick dashed border has a `border-width` equivalent to 3px.
+    */
+    --ll-border-dashed-thick: 0.1875rem dashed var(--ll-border-color);
 
     /* ignore-doxray */
     --fluid-min-width: 320;
