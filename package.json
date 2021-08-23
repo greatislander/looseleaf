@@ -1,5 +1,5 @@
 {
-  "name": "loose-leaf",
+  "name": "@fluid-project/looseleaf",
   "version": "1.6.0",
   "description": "Sketchy CSS framework for prototyping.",
   "main": "dist/style.min.css",
@@ -16,14 +16,14 @@
     "start:css": "postcss src/css/style.css -o dist/style.min.css --watch",
     "start:fractal": "fractal start --watch",
     "test": "npm run lint",
-    "postinstall": "is-ci || husky install",
+    "_postinstall": "is-ci || husky install",
     "pre-commit": "lint-staged",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/fluid-project/loose-leaf.git"
+    "url": "git+ssh://git@github.com/fluid-project/looseleaf.git"
   },
   "keywords": [
     "css",
@@ -33,9 +33,9 @@
   "author": "OCAD University",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/fluid-project/loose-leaf/issues"
+    "url": "https://github.com/fluid-project/looseleaf/issues"
   },
-  "homepage": "https://github.com/fluid-project/loose-leaf#readme",
+  "homepage": "https://github.com/fluid-project/looseleaf#readme",
   "lint-staged": {
     "*.css": "stylelint",
     "*.js": "eslint"

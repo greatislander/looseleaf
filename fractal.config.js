@@ -7,7 +7,7 @@ const nunj = require("@frctl/nunjucks")({
     }
 });
 
-fractal.set("project.title", "Loose Leaf Framework");
+fractal.set("project.title", "Looseleaf Framework");
 fractal.components.engine(nunj);
 fractal.components.set("ext", ".njk");
 fractal.components.set("path", __dirname + "/src/components");
