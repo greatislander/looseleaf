@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit guidelines.
 
+## [1.6.0](https://www.github.com/accessibility-in-action/looseleaf/compare/v1.5.0...v1.6.0) (2021-08-23)
+
+
+### Features
+
+* add dashed borders ([cdfc8be](https://www.github.com/accessibility-in-action/looseleaf/commit/cdfc8bea21c99cc37e40a0079e028e246d8f03cd))
+* add hint and error message components and styles ([cdfc8be](https://www.github.com/accessibility-in-action/looseleaf/commit/cdfc8bea21c99cc37e40a0079e028e246d8f03cd))
+* adjust legend and fieldset styling ([cdfc8be](https://www.github.com/accessibility-in-action/looseleaf/commit/cdfc8bea21c99cc37e40a0079e028e246d8f03cd))
+* form layout improvements (resolves [#75](https://www.github.com/accessibility-in-action/looseleaf/issues/75)) ([#76](https://www.github.com/accessibility-in-action/looseleaf/issues/76)) ([cdfc8be](https://www.github.com/accessibility-in-action/looseleaf/commit/cdfc8bea21c99cc37e40a0079e028e246d8f03cd))
+* replace checkbox pseudo-content with pure CSS ([cdfc8be](https://www.github.com/accessibility-in-action/looseleaf/commit/cdfc8bea21c99cc37e40a0079e028e246d8f03cd))
+
+
+### Bug Fixes
+
+* set width to auto for submit and reset inputs ([cdfc8be](https://www.github.com/accessibility-in-action/looseleaf/commit/cdfc8bea21c99cc37e40a0079e028e246d8f03cd))
+
 ## [1.5.0](https://www.github.com/accessibility-in-action/looseleaf/compare/v1.4.2...v1.5.0) (2021-08-09)
 
 
